@@ -91,5 +91,3 @@ function colorChange(arr,index,newColor) {
 
 let colorScheme = ["#878787", "#a08794", "#bb7e8c", "#c9b6be", "#d1becf"];
 colorScheme = colorChange(colorScheme, 2, "#332327")
-
-
