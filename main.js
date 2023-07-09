@@ -71,8 +71,20 @@ ourArray1.shift();
 
 var newArr = [1,2,3,4];
 var firstArrAdd = newArr.unshift('hello');
-console.log(firstArrAdd);
+
 
 var newArr = [1,2,3,4];
 newArr.unshift('hello');
-console.log(newArr);
+
+let arra= ['I','spy','with','my','little','eye','something','green','.'];
+let elementRemove = 2;
+let startIndex = arra.length - elementRemove;
+arra.splice(startIndex,elementRemove);
+console.log(arra);
+
+
+
+function colorChance(arr,index,newColor) {
+    arr.splice(index, 1, newColor);
+    return arr;
+}
