@@ -1,7 +1,7 @@
 let obj = {
     name: "Kaizen",
     success: "True"
-}
+};
 
 Object.freeze(obj);
 console.log(obj)
@@ -21,5 +21,14 @@ let joinedString = splitString.join("");
 console.log(joinedString);
 
 var firstName = "KZ011";
-var lastLetterOfFirstName = firstName[firstName.length]; // 1
+var lastLetterOfFirstName = firstName[firstName.length -1]; // 1
 console.log(lastLetterOfFirstName);
+
+
+const person = {
+    name: "Forrest Knight",
+    age: 21,
+};
+
+const greeting = `Hello, my name is ${person.name}!
+I am ${person.age} years old.`;
