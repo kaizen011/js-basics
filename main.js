@@ -102,6 +102,7 @@ function findMax(numbers){
     }
     return max;
 }
-var numbers = [1,2,3,4,5,6,7,8,9,10];
-var returnedMax = findMax(numbers);
+var number = [1,2,3,4,5,6,7,8,9,10];
+var returnedMax = findMax(number);
 console.log(returnedMax);
+console.table(returnedMax);
