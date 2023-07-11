@@ -122,3 +122,26 @@ function isPrime(num){
 }
 
 
+let funModule = (function () {
+    return {
+      isCuteMixin: function (obj) {
+        obj.isCute = function () {
+          return true;
+        };
+      },
+  
+      singMixin: function (obj) {
+        obj.sing = function () {
+          console.log("Singing is nice lol");
+        };
+      },
+    };
+  })();
+  
+  function Dog() {}
+  let goodBoy = new Dog();
+  
+  
+  funModule.singMixin(goodBoy);
+  goodBoy.sing(); 
+  
