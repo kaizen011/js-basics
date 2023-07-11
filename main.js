@@ -91,3 +91,16 @@ function colorChange(arr,index,newColor) {
 
 let colorScheme = ["#878787", "#a08794", "#bb7e8c", "#c9b6be", "#d1becf"];
 colorScheme = colorChange(colorScheme, 2, "#332327")
+
+
+function findMax(numbers){
+    var max;
+    for(let i = 1; i < numbers.length; i++){
+        if(max > numbers[i]){
+            max = numbers;
+        }
+    }
+    return max;
+}
+numbers = [1,2,3,4,5,6,7,8,9,10];
+console.log(findMax(numbers));
