@@ -94,13 +94,14 @@ colorScheme = colorChange(colorScheme, 2, "#332327")
 
 
 function findMax(numbers){
-    var max;
+    var max = numbers[0];
     for(let i = 1; i < numbers.length; i++){
-        if(max > numbers[i]){
-            max = numbers;
+        if(numbers[i] > max){
+            max = numbers[i];
         }
     }
     return max;
 }
-numbers = [1,2,3,4,5,6,7,8,9,10];
-console.log(findMax(numbers));
+var numbers = [1,2,3,4,5,6,7,8,9,10];
+var returnedMax = findMax(numbers);
+console.log(returnedMax);
