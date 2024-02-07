@@ -6,7 +6,6 @@ let obj = {
 Object.freeze(obj);
 console.log(obj)
 
-
 var str = 'the quieter you become, ';
 var str2 = ' the more you are able to hear';
 let fullStr = str + str2;
@@ -107,7 +106,6 @@ var returnedMax = findMax(number);
 console.log(returnedMax);
 console.table(returnedMax);
 
-
 function isPrime(num){
     if (number <= 1){
         return false;
@@ -120,7 +118,6 @@ function isPrime(num){
     }
     return true;
 }
-
 
 let funModule = (function () {
     return {
