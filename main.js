@@ -21,7 +21,6 @@ var firstName = "KZ011";
 var lastLetterOfFirstName = firstName[firstName.length -1]; // 1
 
 
-
 const person = {
     name: "Forrest Knight",
     age: 21,
