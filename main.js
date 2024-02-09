@@ -14,7 +14,6 @@ let fullStr = str + str2;
 var string = 'New String';
 let splitString = string.split("");
 
-
 let joinedString = splitString.join("");
 
 var firstName = "KZ011";
