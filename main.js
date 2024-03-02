@@ -36,7 +36,6 @@ const greeting = `Hello, my name is ${person.name}!
 I am ${person.age} years old.`;
 
 
-
 var sandwich = ["peanut butter", "jelly", "bread"][
     (["Bulls", 23], ['White Sox', 45])
 ];
