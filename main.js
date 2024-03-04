@@ -10,7 +10,6 @@ var str = 'the quieter you become, ';
 var str2 = ' the more you are able to hear';
 let fullStr = str + str2;
 
-
 var string = 'New String';
 let splitString = string.split("");
 
